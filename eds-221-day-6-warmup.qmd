@@ -1,0 +1,15 @@
+---
+title: "eds-221-day-6-warmup"
+format: html
+editor: visual
+---
+
+## day 6 warm up
+
+```{r}
+bear_book <- c("brown bear", "red bird", "yellow duck", "blue horse")
+
+for (i in 1:(length(bear_book) - 1)) {
+  print(paste(bear_book[i], bear_book[1], "what do you see? I see a", bear_book[i+1], "looking at me"))
+}
+```
